@@ -1,170 +1,158 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Terms of Use</title>
-<link rel="icon" type="image/png" href="FaviconGP.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use</title>
+    <link rel="icon" type="image/png" href="FaviconGP.png">
 
-<!-- Apple-like font -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- CSS global -->
+    <link rel="stylesheet" href="style.css">
 
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Inter', sans-serif;
-    background: linear-gradient(180deg, #f5f5f7, #ffffff);
-    color: #1d1d1f;
-}
-
-/* NAVBAR */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 40px;
-    backdrop-filter: blur(12px);
-    background: rgba(255,255,255,0.7);
-    position: sticky;
-    top: 0;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
-}
-
-.logo {
-    font-weight: 600;
-    font-size: 18px;
-}
-
-nav a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #333;
-    font-size: 14px;
-    transition: 0.2s;
-}
-
-nav a:hover {
-    color: #0071e3;
-}
-
-/* HERO */
-.hero {
-    display: flex;
-    justify-content: center;
-    padding: 80px 20px;
-}
-
-.glass-card {
-    max-width: 900px;
-    padding: 40px;
-    border-radius: 20px;
-    background: rgba(255,255,255,0.7);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
-}
-
-h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-.subtitle {
-    color: #6e6e73;
-    margin-bottom: 30px;
-    font-size: 14px;
-}
-
-.content p {
-    margin-bottom: 18px;
-    line-height: 1.6;
-    font-size: 15px;
-}
-
-.content strong {
-    display: block;
-    margin-top: 20px;
-    font-size: 16px;
-}
-
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 30px;
-    font-size: 13px;
-    color: #6e6e73;
-}
-
-footer a {
-    display: block;
-    margin-bottom: 8px;
-    color: #0071e3;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-</style>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header class="navbar">
-    <div class="logo">Gerard Pape</div>
-    <nav>
-        <a href="index.html">Menu</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Events</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Gerard Pape</div>
+        <nav>
+            <a href="index.html">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Events</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
-<section class="hero">
-    <div class="glass-card">
-        <h1>Terms of Use</h1>
-        <div class="subtitle">Last updated: March 16, 2026</div>
+    <!-- CONTENT -->
+    <section class="hero">
+        <div class="glass-card2">
 
-        <div class="content">
-            <strong>1. Acceptance of Terms</strong>
-            <p>By accessing this website, you agree to these Terms of Use.</p>
+            <h1>Terms of Use</h1>
+            <div class="subtitle">Last updated: March 16, 2026</div>
 
-            <strong>2. Purpose</strong>
-            <p>This website presents the composer, their works, and projects for informational purposes.</p>
+            <!-- ACCORDION -->
+            <div class="accordion">
 
-            <strong>3. Intellectual Property</strong>
-            <p>All content (music, texts, visuals) belongs to the owner. Unauthorized use is prohibited.</p>
+                <div class="accordion-item">
+                    <button class="accordion-header">1. Acceptance of Terms</button>
+                    <div class="accordion-content">
+                        <p>
+                            By accessing and using this website, you agree to comply with and be bound by these Terms of Use.
+                            If you do not agree, please do not use this website.
+                        </p>
+                    </div>
+                </div>
 
-            <strong>4. Acceptable Use</strong>
-            <p>You agree not to damage, hack, or misuse the website.</p>
+                <div class="accordion-item">
+                    <button class="accordion-header">2. Purpose of the Website</button>
+                    <div class="accordion-content">
+                        <p>
+                            This website is intended to present the composer, including biography, musical works,
+                            events, and projects. Content is for informational and promotional purposes.
+                        </p>
+                    </div>
+                </div>
 
-            <strong>5. External Links</strong>
-            <p>We are not responsible for third-party websites.</p>
+                <div class="accordion-item">
+                    <button class="accordion-header">3. Intellectual Property</button>
+                    <div class="accordion-content">
+                        <p>
+                            All content on this website (music, recordings, texts, images, and projects)
+                            is the property of the owner unless stated otherwise.
+                        </p>
+                        <p>
+                            You may not copy, redistribute, modify, or claim ownership of any content without permission.
+                        </p>
+                    </div>
+                </div>
 
-            <strong>6. Accuracy</strong>
-            <p>Information may change and is not guaranteed to be always up to date.</p>
+                <div class="accordion-item">
+                    <button class="accordion-header">4. Acceptable Use</button>
+                    <div class="accordion-content">
+                        <p>
+                            You agree not to hack, damage, disrupt, or misuse the website in any way,
+                            including using automated scraping tools or uploading malicious code.
+                        </p>
+                    </div>
+                </div>
 
-            <strong>7. Liability</strong>
-            <p>We are not responsible for damages related to the use of the site.</p>
+                <div class="accordion-item">
+                    <button class="accordion-header">5. External Links</button>
+                    <div class="accordion-content">
+                        <p>
+                            This website may contain links to external sites. We are not responsible for their content or policies.
+                        </p>
+                    </div>
+                </div>
 
-            <strong>8. Changes</strong>
-            <p>Terms may be updated anytime without notice.</p>
+                <div class="accordion-item">
+                    <button class="accordion-header">6. Accuracy of Information</button>
+                    <div class="accordion-content">
+                        <p>
+                            Information may change over time. We do not guarantee that all content is always up to date or complete.
+                        </p>
+                    </div>
+                </div>
 
-            <strong>9. Contact</strong>
-            <p>Contact via the website if needed.</p>
+                <div class="accordion-item">
+                    <button class="accordion-header">7. Limitation of Liability</button>
+                    <div class="accordion-content">
+                        <p>
+                            The website owner is not responsible for any damages resulting from the use or inability to use the website.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">8. Changes to the Terms</button>
+                    <div class="accordion-content">
+                        <p>
+                            These Terms may be updated at any time without notice. Continued use means acceptance of changes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">9. Contact</button>
+                    <div class="accordion-content">
+                        <p>
+                            For any questions, please use the contact section of the website.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-    </div>
-</section>
+    </section>
 
-<footer>
-    <a href="terms-of-use.html">User rules</a>
-    <p>© 2026 - Andorre777</p>
-</footer>
+    <!-- FOOTER -->
+    <footer>
+        <a href="terms-of-use.html">User rules</a>
+        <p>© 2026 - Andorre777. All rights reserved.</p>
+    </footer>
+
+    <!-- SCRIPT ACCORDION -->
+    <script>
+    document.querySelectorAll(".accordion-header").forEach(button => {
+        button.addEventListener("click", () => {
+            const content = button.nextElementSibling;
+
+            button.classList.toggle("active");
+
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                document.querySelectorAll(".accordion-content").forEach(c => c.style.maxHeight = null);
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    });
+    </script>
 
 </body>
 </html>
