@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Œuvres de Gérard Pape</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .works-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+
+        .works-table th,
+        .works-table td {
+            padding: 14px 18px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-glass);
+        }
+
+        .works-table th {
+            color: var(--text-color);
+            font-weight: 600;
+        }
+
+        .works-table td {
+            color: var(--text-muted);
+        }
+
+        .works-table tr:hover {
+            background: rgba(255,255,255,0.05);
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Gérard Pape</div>
+
+        <div>
+            <a href="index.html">Accueil</a>
+            <a href="biographie.html">Biographie</a>
+            <a href="oeuvres.html">Œuvres</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="glass-card2">
+
+            <h1>Catalogue des œuvres</h1>
+            <p class="subtitle">
+                Sélection des compositions de Gérard Pape.
+            </p>
+
+            <div class="table-container">
+                <table class="works-table">
+
+                    <thead>
+                        <tr>
+                            <th>Année</th>
+                            <th>Titre</th>
+                            <th>Instrumentation</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>1993</td>
+                            <td>Nom de l'œuvre</td>
+                            <td>Piano</td>
+                        </tr>
+
+                        <tr>
+                            <td>1997</td>
+                            <td>Nom de l'œuvre</td>
+                            <td>Électronique</td>
+                        </tr>
+
+                        <tr>
+                            <td>2001</td>
+                            <td>Nom de l'œuvre</td>
+                            <td>Orchestre</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Gérard Pape
+    </footer>
+
+</body>
+</html>
