@@ -211,3 +211,21 @@ footer a:hover {
     opacity: 0.85;
     transform: translateY(-1px);
 }
+
+
+.custom-link {
+    color: white;
+    text-decoration: none;
+}
+
+.custom-link:visited {
+    color: white;
+}
+
+.custom-link:hover {
+    color: #66ccff;
+}
+
+.custom-link:active {
+    color: #66ccff;
+}
