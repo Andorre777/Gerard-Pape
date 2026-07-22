@@ -235,3 +235,51 @@ footer a:hover {
 .custom-link:active {
     color: #66ccff;
 }
+
+/* =========================
+   ACCORDION
+========================= */
+
+.accordion-item {
+    margin-bottom: 12px;
+}
+
+.accordion-header {
+    width: 100%;
+    padding: 16px 20px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: rgba(0,0,0,0.08);
+
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.accordion-header:hover {
+    background: rgba(0,0,0,0.15);
+}
+
+.accordion-header.active {
+    background: rgba(0,0,0,0.20);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+
+    transition: max-height 0.3s ease;
+
+    padding: 0 20px;
+}
+
+.accordion-content p {
+    padding: 15px 0;
+    color: #444;
+}
