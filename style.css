@@ -124,6 +124,12 @@ body {
     max-width: 600px;
 }
 
+.glass-card img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
 .glass-card2 {
     max-width: 1000px;
 }
