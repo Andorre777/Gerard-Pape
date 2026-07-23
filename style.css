@@ -323,3 +323,38 @@ footer a:hover {
     }
 
 }
+
+/* =========================
+   GALLERY
+========================= */
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+    justify-items:center;
+}
+
+.gallery-grid img{
+
+    width:100%;
+    aspect-ratio:3/4;
+
+    object-fit:cover;
+
+    border-radius:14px;
+
+    transition:0.25s ease;
+
+    cursor:pointer;
+}
+
+.gallery-grid img:hover{
+
+    transform:scale(1.04);
+
+    box-shadow:0 12px 35px rgba(0,0,0,.18);
+
+}
+
+
